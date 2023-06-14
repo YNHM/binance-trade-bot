@@ -2,7 +2,7 @@ version: "3"
 
 services:
   crypto-trading:
-    image: masaiasuose-binance-trade-bot
+    image: binance-trade-bot
     container_name: binance_trader
     working_dir: /app
     volumes:
