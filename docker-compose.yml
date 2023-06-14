@@ -16,7 +16,7 @@ services:
       - PYTHONUNBUFFERED=1
 
   api:
-    image: masaiasuose-binance-trade-bot
+    image: binance-trade-bot
     container_name: binance_trader_api
     working_dir: /app
     volumes:
