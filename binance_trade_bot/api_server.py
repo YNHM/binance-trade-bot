@@ -146,7 +146,7 @@ def pairs():
 
 @app.route("/api/healthcheck")
 def healthcheck():
-    return True
+    return jsonify({"status": "ok"})
 
 
 @socketio.on("update", namespace="/backend")
