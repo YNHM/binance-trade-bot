@@ -144,6 +144,11 @@ def pairs():
         return jsonify([pair.info() for pair in all_pairs])
 
 
+@app.route("/api/healthcheck")
+def pairs():
+    return True
+
+
 @socketio.on("update", namespace="/backend")
 def handle_my_custom_event(json):
     emit("update", json, namespace="/frontend", broadcast=True)
