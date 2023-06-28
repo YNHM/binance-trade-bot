@@ -145,7 +145,7 @@ def pairs():
 
 
 @app.route("/api/healthcheck")
-def pairs():
+def healthcheck():
     return True
 
 
