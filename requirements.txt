@@ -11,7 +11,7 @@ eventlet==0.33.3
 python-socketio[client]==5.2.1
 cachetools==4.2.2
 sqlitedict==1.7.0
-unicorn-binance-websocket-api==1.34.2
+unicorn-binance-websocket-api==1.46.1
 unicorn-fy==0.11.0
 sortedcontainers
 tabulate
